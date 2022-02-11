@@ -7,7 +7,8 @@ const Home = () => {
     <div>
       <Navbar />
       <br />
-      <ItemListContainer greeting="Agrego  Prop para el saludo desde ItemListsContainers!"></ItemListContainer>
+      <h3>Productos</h3>
+      <ItemListContainer></ItemListContainer>
     </div>
   );
 };
