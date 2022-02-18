@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Badge } from "@material-ui/core";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import { Link } from "react-router-dom";
+import { CartWidget } from "../CartWidget/CartWidget";
 
 const Container = styled.div`
   height: 80px;
@@ -93,11 +94,7 @@ export const NavBar = () => {
           <Link to="/productos/otros" style={{ color: "white", fontSize: 20 }}>
             OTROS&nbsp;
           </Link>
-          <div>
-            <Badge badgeContent={2} color="primary">
-              <ShoppingCartOutlined />
-            </Badge>
-          </div>
+          <CartWidget />
         </Right>
       </Roll>
     </Container>

@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import "./ItemListContainer.css";
 import { pedirDatos } from "../../helper/helper";
 import { ItemList } from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";

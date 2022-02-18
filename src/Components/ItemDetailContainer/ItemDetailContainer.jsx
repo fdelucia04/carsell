@@ -20,6 +20,16 @@ export const ItemDetailContainer = () => {
         setLoading(false);
       });
   }, []);
+  useEffect(() => {
+    const clickear = () => {
+      console.log("click");
+    };
+
+    window.addEventListener("click", clickear);
+    return () => {
+      window.removeEventListener("click", clickear);
+    };
+  }, []);
 
   return (
     <div className="container my-5">
