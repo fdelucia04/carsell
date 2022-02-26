@@ -79,20 +79,14 @@ export const NavBar = () => {
           <Link to="/productos" style={{ color: "white", fontSize: 20 }}>
             LOGO&nbsp;
           </Link>
-          <Link
-            to="/productos/repuestos"
-            style={{ color: "white", fontSize: 20 }}
-          >
-            RESPUESTOS&nbsp;
+          <Link to="/productos/autos" style={{ color: "white", fontSize: 20 }}>
+            AUTOS&nbsp;
           </Link>
-          <Link
-            to="/productos/servicios"
-            style={{ color: "white", fontSize: 20 }}
-          >
-            SERVICIOS&nbsp;
+          <Link to="/productos/sedan" style={{ color: "white", fontSize: 20 }}>
+            SEDAN&nbsp;
           </Link>
-          <Link to="/productos/otros" style={{ color: "white", fontSize: 20 }}>
-            OTROS&nbsp;
+          <Link to="/productos/suvs" style={{ color: "white", fontSize: 20 }}>
+            SUVS&nbsp;
           </Link>
           <CartWidget />
         </Right>
